@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, button:hover{
+    background-color: #072227;
+    color: white;
+}
+
+header, footer{
+    text-align: center;
+    margin: 15px auto;
+}
+
+section{
+    width: 400px;
+    height: 400px;
+    background-color: #35858B;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(255,255,255,0.3);
+}
+
+div#dados, div#divConvidados{
+    width: 95%;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px auto;
+    padding: 10px;
+    text-align: left;
+    color: black;
+}
+
+div#divConvidados{
+    height: 150px;
+}
+
+input{
+    display: block;
+    width: 70%;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: right;
+    float: right;
+}
