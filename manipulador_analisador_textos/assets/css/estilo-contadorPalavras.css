@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #072227;
+    color: white;
+}
+
+header, footer{
+    text-align: center;
+    margin: 15px auto;
+}
+
+section{
+    width: 400px;
+    height: 400px;
+    background-color: #35858B;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label{
+    text-align: right;
+    float: right;
+}
+
+textarea{
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+input{
+    text-align:right;
+    float:right;
+    width: 40px;
+    margin-right:10px;
+}
+
+.info{
+    display: block;
+}
+
+button{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #072227;
+    color: white;
+}
