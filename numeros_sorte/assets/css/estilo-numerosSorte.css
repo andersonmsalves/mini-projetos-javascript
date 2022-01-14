@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #072227;
+    color: white;
+}
+
+header, footer{
+    text-align: center;
+    margin: 15px auto;
+}
+
+section{
+    width: 400px;
+    height: 400px;
+    background-color: #35858B;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div p{
+    padding: 15px;
+    margin: 140px auto;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 200%;
+
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #072227;
+    color: white;
+}
