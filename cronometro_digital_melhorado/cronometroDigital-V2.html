@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro digital v2</title>
+    <link href="assets/css/estilo-cronometroDigital.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Projeto X: CRONOMETRO DIGITAL V2</h1>
+    </header>
+    <section>
+        <div>
+            <audio id="som-aviso" src="assets/audio/doorBell.mp3"></audio>
+            <h3>Configurações</h3>
+            <div id="configuracoes-alarme">
+                <div class="config">
+                    <label for="status-som">Som:</label>
+                    <select id="status-som" name="status-som">
+                        <option value="off" selected>Desligado</option>
+                        <option value="on">Ligado</option>
+                    </select>
+                </div>
+                    
+                <div class="config">
+                    <label for="intervalo-som">Intervalo:</label>
+                    <select id="intervalo-som" name="intervalo-som">
+                        <option value="1" selected>1 minuto</option>
+                    </select>
+                </div>
+
+                <div class="config">
+                    <label for="duracao-som">Duração:</label>
+                    <select id="duracao-som" name="duracao-som">
+                        <option value="1" selected>1 segundo</option>
+                    </select>
+                </div>
+
+
+            </div><!--END configuracoes-alarme-->
+
+            <p id="cronometro">00:00:00:0000</p>
+            <button id="btn-controle">START</button>
+            <button id="btn-resetar">RESETAR</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Difusão de Conhecimento</p>
+    </footer>
+    <script src="assets/js/script-cronometroDigital.js" type='text/javascript'></script>
+</body>
+</html>
