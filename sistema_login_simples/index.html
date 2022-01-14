@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login Simples</title>
+    <link href="assets/css/estilo-sistemaLogin.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Projeto X: Página de Login Simples</h1>
+    </header>
+    <section>
+        <div>
+            <p id="relogio">00:00:00</p>
+        </div>
+
+        <div id="login">
+
+            <div class="campo-dado">
+                <label for="username">Login:</label>
+                <input type="text" name="username" id="username" maxlength="20" placeholder="Nome de usuário" required>
+            </div>
+            <div class="campo-dado">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" maxlength="30" placeholder="Sua senha" required/>
+            </div>
+            
+            <button id="logar" name="logar">Logar</button>
+            <div style="clear:both"></div>
+
+        </div>
+
+        <div id="sistema">
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Difusão de Conhecimento</p>
+    </footer>
+    <script src="assets/js/script-sistemaLogin.js" type='text/javascript'></script>
+</body>
+</html>
