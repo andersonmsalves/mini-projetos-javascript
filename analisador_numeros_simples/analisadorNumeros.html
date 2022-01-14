@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link href="assets/css/estilo-analisadorNumeros.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Projeto X: Analisador de Números</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <label for="numero">Número: </label>
+            <input type="number" id="numero" name="numero" value="0" min="-100" max="100" step="1"/>
+            <button id="btn-adicionar">Adicionar</button>
+            <div style="clear:both"></div>
+
+            <select id="lista-numeros" size="6">
+                <option value="values">Valores</option>
+            </select>
+            <button id="btn-processar">Processar Dados</button>
+        </div>
+        <div id="dadosProcessados">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>Difusão de Conhecimento</p>
+    </footer>
+    <script src="assets/js/script-analisadorNumeros.js" type='text/javascript'></script>
+</body>
+</html>
