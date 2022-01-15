@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+    /*background-color: white;*/
+    color: black;
+    margin: 20px auto;
+}
+
+header{
+    background-color: rgb(30, 32, 31);
+    width: 100%;
+    height:140px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: 0.7em;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: white;
+}
+
+#sep{
+    background-color: rgb(218,218,226);
+    width: 100%;
+    height:15px;
+}
+
+main{
+    background-color: rgb(61, 60, 74);
+    width: 100%;
+    height: 280px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 7px;
+    font-size: 1.2em;
+}
+
+.line-btns{
+    margin:0 auto;
+    padding: 2px;
+}
+
+button.num{
+    background-color: rgb(41,42,44);
+    color: white;
+}
+
+button.opr{
+    background-color: rgb(89,95,107);
+}
+
+button:hover{
+    border: 3px solid rgba(255,255,255,0.3);
+}
+
+button#btn-ce, button#btn-on-c{
+    background-color: rgb(150,61,83);
+}
+
+button#btn-ce:hover, button#btn-on-c:hover{
+    border: 3px solid rgba(0,0,0,.7);
+}
+
+button#equal{
+    width: 125px;
+}
+
+div#relogio{
+    margin-bottom: 10px;
+
+}
+
+div > h1{
+    display: inline-block;
+}
+
+input.screen{
+    float: right;
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    margin-right: 30px;
+    background-color:black;
+    color: white;
+    border: none;
+}
+
+#display-calc{
+    margin: 0 auto;
+    background-color: white;
+    width: 90%;
+    height: 80px;
+    border-radius: 3px;
+    padding-top: 8px;
+}
+
+div#display-calc .screen{
+    margin:0 auto;
+    display: block;
+    float: none; /* Estava pegando o float*/
+    background-color: rgb(85, 88, 77);
+    width: 95%;
+    height: 90%;
+    font-size: 4.3em;
+    text-align: right;
+    padding-right: 5px;
+}
+
+#titulo, footer{
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+video{
+    display: none;
+}

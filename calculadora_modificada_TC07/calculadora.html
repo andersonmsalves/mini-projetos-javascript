@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="titulo">
+        <h1>Projeto X: Calculadora Melhorada</h1>
+    </div>
+    <div id="container">
+        <header>
+            <div id="relogio">
+                <h1>Mod TC07</h1>
+                <input id="rel" class="screen" type="text" maxlength="8" disabled value="">
+            </div>
+            <div id="display-calc">
+                    <input id="display" class="screen" type="text" maxlength="12" disabled>
+            </div>
+        </header>
+        <div id="sep"></div>
+        <main>
+            <div class="line-btns">
+                <button id="power-off" value="off">OFF</button>
+                <button id="7" class="num">7</button>
+                <button id="8" class="num">8</button>
+                <button id="9" class="num">9</button>
+                <button id="percent" onclick="calcularPorcentagem()" class="opr">%</button>
+                <button id="sqrt" onclick="calcularRaiz()" class="opr">√</button>
+            </div>
+
+            <div class="line-btns">
+                <button id="btn-ac">AC</button>
+                <button id="4" class="num">4</button>
+                <button id="5" class="num">5</button>
+                <button id="6" class="num">6</button>
+                <button id="mult" onclick="operacao('*')" value="*" class="opr">x</button>
+                <button id="divd" onclick="operacao('/')" value="/"class="opr">÷</button>
+            </div>
+
+            <div class="line-btns">
+                <button id="btn-ce">CE</button>
+                <button id="1" class="num">1</button>
+                <button id="2" class="num">2</button>
+                <button id="3" class="num">3</button>
+                <button id="plus" onclick="operacao('+')" class="opr">+</button>
+                <button id="minus" onclick="operacao('-')" class="opr">-</button>
+            </div>
+
+            <div class="line-btns">
+                <button id="btn-on-c" value="on">ON/C</button>
+                <button id="0" class="num">0</button>
+                <button id="zeros" class="num">00</button>
+                <button id="dot" class="num">.</button>
+                <button id="equal" onclick="resultadoOperacoes()" class="opr">=</button>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <p>&copy; Difusão de Conhecimento.</p>
+    </footer>
+    <video src="assets/audio/somClick.mp4" id="som-click" style="display: none;"></video>
+    <script src="assets/js/scripts.js" type="text/javascript"></script>
+</body>
+</html>
